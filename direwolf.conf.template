@@ -1,0 +1,4 @@
+# Template configuration for Dire Wolf
+# Specify the path to wxnow.txt weather data file
+# Runtime directory is relative to the location where Dire Wolf is executed
+WXNOWFILE runtime/wxnow.txt
