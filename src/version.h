@@ -3,7 +3,7 @@
 
 // Put in destination field to identify the equipment used.
 
-#define APP_TOCALL "APDW"		// Assigned by WB4APR in tocalls.txt
+#define APP_TOCALL "APZZ"               // Experimental tocall starting with "AP"
 
 // This now comes from compile command line options.
 

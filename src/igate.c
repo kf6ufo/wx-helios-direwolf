@@ -799,9 +799,9 @@ static void * connnect_thread (void *arg)
  */
 
 	      SLEEP_SEC(3);
-	      snprintf (stemp, sizeof(stemp), "user %s pass %s vers Dire-Wolf %d.%d", 
-			save_igate_config_p->t2_login, save_igate_config_p->t2_passcode,
-			MAJOR_VERSION, MINOR_VERSION);
+              snprintf (stemp, sizeof(stemp), "user %s pass %s vers WX-Helios %d.%d",
+                        save_igate_config_p->t2_login, save_igate_config_p->t2_passcode,
+                        MAJOR_VERSION, MINOR_VERSION);
 	      if (save_igate_config_p->t2_filter != NULL) {
 	        strlcat (stemp, " filter ", sizeof(stemp));
 	        strlcat (stemp, save_igate_config_p->t2_filter, sizeof(stemp));
